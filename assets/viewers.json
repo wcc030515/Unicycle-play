@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "nickname": "奶呼呼",
+    "avatar": "assets/avatars/viewer-01.png"
+  },
+  {
+    "id": 2,
+    "nickname": "霓虹斧头哥",
+    "avatar": "assets/avatars/viewer-02.png"
+  },
+  {
+    "id": 3,
+    "nickname": "今天不加班",
+    "avatar": "assets/avatars/viewer-03.png"
+  },
+  {
+    "id": 4,
+    "nickname": "困困蓝毛",
+    "avatar": "assets/avatars/viewer-04.png"
+  },
+  {
+    "id": 5,
+    "nickname": "墨镜小黄",
+    "avatar": "assets/avatars/viewer-05.png"
+  },
+  {
+    "id": 6,
+    "nickname": "拇指猫猫",
+    "avatar": "assets/avatars/viewer-06.png"
+  },
+  {
+    "id": 7,
+    "nickname": "小音符",
+    "avatar": "assets/avatars/viewer-07.png"
+  },
+  {
+    "id": 8,
+    "nickname": "逆光少年",
+    "avatar": "assets/avatars/viewer-08.png"
+  },
+  {
+    "id": 9,
+    "nickname": "月下小法师",
+    "avatar": "assets/avatars/viewer-09.png"
+  },
+  {
+    "id": 10,
+    "nickname": "橘子手柄猫",
+    "avatar": "assets/avatars/viewer-10.png"
+  },
+  {
+    "id": 11,
+    "nickname": "柯基冲冲",
+    "avatar": "assets/avatars/viewer-11.png"
+  },
+  {
+    "id": 12,
+    "nickname": "蓝衣搭档",
+    "avatar": "assets/avatars/viewer-12.png"
+  },
+  {
+    "id": 13,
+    "nickname": "不过如此",
+    "avatar": "assets/avatars/viewer-13.png"
+  }
+]

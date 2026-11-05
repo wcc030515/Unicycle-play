@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f5eecf" />
+  <meta name="description" content="Unicycle Race — 单机独轮车竞速。" />
+  <link rel="icon" type="image/svg+xml" href="./assets/ui/game-icon.svg" />
+  <title>单轮车竞速 · 八动物试玩副本</title>
+  <style id="loading-screen-style">html,body{margin:0}#loading,#loading *{box-sizing:border-box}#loading{z-index:100;pointer-events:auto;color:#727c5b;font-synthesis:none;background:linear-gradient(105deg,#fbf3d7,#ece5bb);place-items:center;font-family:Microsoft YaHei,PingFang SC,system-ui,sans-serif;display:grid;position:fixed;inset:0;overflow:hidden}#loading[hidden]{display:none!important}#loading .loading-panel{text-align:center;width:min(680px,100vw - 48px)}#loading h1{color:#fff7da;-webkit-text-stroke:4px #585437;paint-order:stroke fill;width:auto;margin:0 0 clamp(28px,6vh,64px);font-size:clamp(28px,4vw,50px);font-weight:800;line-height:1.4;position:static}#loading .loading-content{width:100%;position:static;transform:none}#loading-caption{justify-content:center;align-items:center;height:3em;margin:0 0 14px;font-size:clamp(16px,2.2vw,18px);line-height:1.5;display:flex}#loading .loading-track{background:#9aa97c55;border:2px solid #e5d9af;border-radius:20px;height:23px;overflow:hidden}#loading-fill{background:linear-gradient(90deg,#e6bd62,#f58a43);border-radius:20px;width:0;height:100%;transition:width .18s;display:block}#loading-percent{font-variant-numeric:tabular-nums;height:24px;margin-top:12px;font-size:15px;line-height:24px;display:block}@media (prefers-reduced-motion:reduce){#loading-fill{transition:none}}</style>
+  <script type="module" crossorigin src="./assets/index-C5CJgPLy.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-C26A15mz.css">
+</head>
+<body>
+  <section id="loading" aria-label="游戏载入">
+    <div class="loading-panel">
+      <h1>单轮车竞速</h1>
+      <div class="loading-content"><p id="loading-caption">正在准备赛道…</p><div class="loading-track" role="progressbar" aria-label="加载进度" aria-valuenow="0"><i id="loading-fill"></i></div><span id="loading-percent">0%</span></div>
+    </div>
+  </section>
+  <main id="game" aria-label="Unicycle Race Beta">
+    <div id="world"></div>
+    <div id="interface">
+      <section id="home" class="screen" hidden>
+        <div class="menu-showcase">
+        <h1>单轮车竞速</h1>
+        <div id="showcase-drag" aria-label="拖动旋转角色"></div>
+        <div id="animal-selection">
+          <h2 id="selected-animal">小猫</h2>
+          <div id="coat-picker" role="group" aria-label="外观主颜色">
+            <button id="coat-original" type="button" aria-label="恢复角色原色" aria-pressed="true">原色</button>
+            <div id="coat-swatches"></div>
+            <label class="custom-coat" title="自选颜色"><input id="coat-color" type="color" value="#fe8f29" aria-label="自定义外观主颜色" /><span aria-hidden="true">✎</span></label>
+          </div>
+          <div id="animal-picker" role="group" aria-label="选择动物角色"></div>
+        </div>
+        </div>
+        <div class="start-actions" role="group" aria-label="游戏模式">
+          <button id="start" class="primary">单人游戏</button>
+          <button id="online" disabled aria-label="联机游玩，暂未开放" title="暂未开放">联机游玩<small>暂未开放</small></button>
+        </div>
+        <button id="settings-toggle" class="icon-button" aria-label="设置" aria-expanded="false"><img src="./assets/ui/settings-gear.svg" alt="" /></button>
+        <aside id="settings" class="card" hidden>
+          <strong>设置</strong>
+          <label>声音 <input id="sound" type="checkbox" checked /></label>
+          <button id="fullscreen">无边框全屏</button>
+        </aside>
+      </section>
+      <section id="hud" class="screen" hidden>
+        <div class="timer-box"><time id="timer">00:00</time><button id="pause">暂停 Ⅱ</button></div>
+        <div id="gift-buttons" aria-label="互动道具"></div>
+        <div id="progress" aria-label="赛道进度"><div id="progress-fill"></div><div id="progress-dots"></div><span class="finish-flag">⚑</span></div>
+        <div id="notices" aria-live="polite"></div>
+        <div id="badges"></div>
+        <div id="rank-labels"></div>
+        <div id="touch-controls"><button data-key="ArrowLeft" aria-label="左转">←</button><button data-key="ArrowRight" aria-label="右转">→</button><button data-key="ArrowUp">加速</button></div>
+      </section>
+      <div id="countdown" hidden aria-live="polite"><span>3</span></div>
+      <section id="overlay" class="screen" hidden>
+        <div class="result-card card"><h2 id="overlay-title">比赛已暂停</h2><div id="result-stats" hidden></div><button id="resume" class="primary">继续游戏</button><button id="home-button">返回开始界面</button></div>
+      </section>
+      <section id="error" class="screen" hidden><div class="card"><h2>暂时无法开始游戏</h2><p id="error-message"></p><button id="reload">重新载入</button></div></section>
+      <p id="guide" class="card" hidden></p>
+    </div>
+  </main>
+</body>
+</html>
