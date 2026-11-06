@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "hamster",
+  "detectedHex": "#F69C00",
+  "sourceLuminance": 0.4336976414393403,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "hamster-maincolor.webp",
+  "layerSha256": "9580e02d09ac1b090f5175c31c1a408493e91ec21ca751eacf88c6c58586ce80",
+  "modelSha256": "31429032453f7b483956456e00657b2c08065c8a2c9d3434ca425a24fab73d31",
+  "originalModelSha256": "0bf5cddea92c14afb433c114aa518cece257cffd68e8ebb24d229b1c46010404"
+}

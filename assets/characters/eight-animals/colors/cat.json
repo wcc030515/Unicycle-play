@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "cat",
+  "detectedHex": "#F68501",
+  "sourceLuminance": 0.36370079365431596,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "cat-maincolor.webp",
+  "layerSha256": "d3c867ea3489880f3fae44d9132885e1aaa15490bd42b625cf816f5e1e54bda2",
+  "modelSha256": "93aaf57492173ef124a2f00a078e7f180c20f798113ba8adb51998fc2fb9742d",
+  "originalModelSha256": "7847703f693b1a1a4b104eaf978acaa6e01eec14f0bb1851d28dcb6e2cb44479"
+}

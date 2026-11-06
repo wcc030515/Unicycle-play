@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "rabbit",
+  "detectedHex": "#F5CB81",
+  "sourceLuminance": 0.6370932840294976,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "rabbit-maincolor.webp",
+  "layerSha256": "f81808cfea9f4031928abc312e903b832ea5da8978c4590ac23645b714880345",
+  "modelSha256": "71550f25ffa65d078df1ff4e568b0e399687a81cdd1dbad2d6cf576df61cfa60",
+  "originalModelSha256": "d88151588836b4c9da7478f74ff49413b1a77cab90e08e1c4b059d2dea5639b9"
+}

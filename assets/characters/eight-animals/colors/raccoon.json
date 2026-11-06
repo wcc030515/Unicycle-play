@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "raccoon",
+  "detectedHex": "#A57E7A",
+  "sourceLuminance": 0.24326182423363538,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "raccoon-maincolor.webp",
+  "layerSha256": "47a89c26b33ac910da7b851445603d684d9d28f202ab67606c775473333d581e",
+  "modelSha256": "16bcfed53eb18283c100bda2063498997c4caad42a78e48e600326201a6b7c83",
+  "originalModelSha256": "f6e1cec1a96f2f1538b8dc1d54bb9c63e4fa635808e4b7c60233e7be2615ea15"
+}

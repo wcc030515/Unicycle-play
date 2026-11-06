@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "dog",
+  "detectedHex": "#D3610A",
+  "sourceLuminance": 0.22420186869484168,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "dog-maincolor.webp",
+  "layerSha256": "bc295a3a58550ddaa3d679c4b46bc99570b47bccb7e8a1ed76577a2c43944924",
+  "modelSha256": "db52911f60149c304df01a6d962a3ff4b7fb58d2f26eb7cee3804afcd0f68c72",
+  "originalModelSha256": "35d1c5215bed1c9bbc02e39b8ad3cdd92c90954dcd6f7861bb7b2675b5f33ad3"
+}

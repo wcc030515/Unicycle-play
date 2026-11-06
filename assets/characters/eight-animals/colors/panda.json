@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "panda",
+  "detectedHex": "#352E23",
+  "sourceLuminance": 0.02832223377205416,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "panda-maincolor.webp",
+  "layerSha256": "4469faf8b1daac5bc0f23979c80974480184c46f9205fc809d6bc94663fec605",
+  "modelSha256": "8e9ebd9f02b68ab62b39cdcf8102a18d2d6a9af7a83249a90e01cf2a7505f5a2",
+  "originalModelSha256": "dda5a6e92f41f4f798d410a57c0e6610a4bba8da5a572e906c4363d007dc177e"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "bear",
+  "detectedHex": "#C9620E",
+  "sourceLuminance": 0.21184578365737378,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "bear-maincolor.webp",
+  "layerSha256": "880fcebf368d0576b8f933a0d6009e44f06ae5472201700633b2c1351fe9e8ee",
+  "modelSha256": "5ab66c6cdd69da9938cfb40ec8ef02d09ba4fa18bcbfb09c45c98f1d6237596c",
+  "originalModelSha256": "f7d27e321197ed3a376a086a24f09419dbd35aa948bd723731f01e4dd6b7a66d"
+}

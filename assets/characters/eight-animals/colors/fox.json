@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "species": "fox",
+  "detectedHex": "#F96501",
+  "sourceLuminance": 0.29449289248663907,
+  "textureSize": [
+    4096,
+    4096
+  ],
+  "layerEncoding": "RGB = selected original linear color contribution, encoded as sRGB; A = selection coverage. RGB is already premultiplied in linear space. No additional GPU alpha premultiplication.",
+  "runtimeReplacement": "original + targetLinear * luminance(selectedOriginalContribution)/sourceLuminance - selectedOriginalContribution; reset disables replacement exactly.",
+  "layer": "fox-maincolor.webp",
+  "layerSha256": "f71542f1e67532a4f35e82e05fe352d6e115ac48e4b61248fd3f942a55a88361",
+  "modelSha256": "d44c809458f25474782ba40561a0eba1e1dd704cf6503790ef2a50b7b45bc30d",
+  "originalModelSha256": "fd3fdf81cc610455609607ba9a552bbb5b65ad91461d91abd427abd1d0fe8e71"
+}
