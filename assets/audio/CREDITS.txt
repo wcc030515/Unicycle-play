@@ -1,0 +1,45 @@
+Unicycle Race — Community audio (2026-11-05)
+
+All selected assets use the Creative Commons CC0 1.0 option.
+https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Kenney
+https://kenney.nl/assets/ui-audio
+
+Kenney
+https://kenney.nl/assets/sci-fi-sounds
+
+Kenney
+https://kenney.nl/assets/interface-sounds
+
+Kenney
+https://kenney.nl/assets/digital-audio
+
+ryansitz
+https://freesound.org/people/ryansitz/sounds/342932/
+
+Delta12 Studio
+https://opengameart.org/content/rpg-sound-effect-pack
+
+kheetor
+https://opengameart.org/content/race-start-countdown
+
+MintoDog
+https://opengameart.org/content/racing-game-finish-jingle
+
+MintoDog
+https://opengameart.org/content/sky-blue-street
+
+See manifest.json for each selected recording, author, publisher page, original filename and SHA256. Race Start Countdown offers several licenses; this project uses its CC0 option. The linked publisher listings were checked on 2026-11-05.
+
+UI, countdown, nitro, confusion, boost entry, drain and victory reuse the selected recordings already present in the user's Toy Car Drift project. The original Kenney license texts accompany the four selected Kenney packs. No other sounds from those packs are runtime dependencies.
+
+Processing: UI WAVs are copied byte-for-byte. Other approved WAV recordings are re-encoded to Ogg Vorbis (quality 4); item/cancel/error/force-field recordings use the same conversion, with fixed gain adjustments for mixing. Nitro entry is trimmed to 0.45 seconds with a 90ms closing fade. Music is re-encoded to Ogg Vorbis quality 2 with gain 0.6. All remain at their original pitch. No oscillator, synthesized replacement or generated music is used. Original nitro/confusion recording edits and loop crossfades are retained from Toy Car Drift. Music: Sky Blue Street (normal version, BPM 165), MintoDog. Victory: Race Finish Best (Jingle), MintoDog.
+
+Water replacement selected 2026-11-06: A — Wading in Shallow Water.wav by ryansitz, CC0 1.0. Uses the exact approved audition A.ogg bytes, a 12-second excerpt from 3–15 seconds of the publisher public HQ preview, with audition level adjustment and short edge fades. Runtime keeps its original pitch and applies only mix gain and movement-driven start/stop. Source: https://freesound.org/people/ryansitz/sounds/342932/ . Previous single-splash recording is excluded from the game runtime.
+
+Terrain recordings selected 2026-11-06:
+Grass/thick grass: grass A — Bike_On_Grass_OS.mp3 by KevinDuffy1234, CC0 1.0. https://freesound.org/people/KevinDuffy1234/sounds/340198/ . Exact approved 12-second audition excerpt, 2–14 seconds.
+Ordinary grass and dirt road: riding 4 — Bike on a road (MTB), sound 1282, by Joseph SARDIN / BigSoundBank, CC0 1.0. https://bigsoundbank.com/bike-on-a-road-mtb-s1282.html . Exact approved 12-second audition excerpt, 6–18 seconds.
+Both retain the audition pitch and bytes. Runtime changes only mix gain and movement-driven start/stop. Terrain loops are mutually exclusive; the same road loop continues between ordinary grass and dirt. The previous short grass recording is excluded from the runtime. Previously approved wading A remains unchanged.

@@ -1,0 +1,421 @@
+{
+  "version": 3,
+  "license": "CC0-1.0",
+  "credits": "CREDITS.txt",
+  "licenses": [
+    "LICENSE-kenney-ui-audio.txt",
+    "LICENSE-kenney-sci-fi.txt",
+    "LICENSE-kenney-interface.txt",
+    "LICENSE-kenney-digital.txt"
+  ],
+  "clips": [
+    {
+      "id": "ui-select",
+      "file": "ui-select.wav",
+      "bus": "ui",
+      "gain": 0.9,
+      "loop": false,
+      "duration": 0.056598639455782314,
+      "bytes": 5036,
+      "sha256": "01b5fa9413b4ece36edcb3b18ccf4d1d807d77b586e95a3191b754604791b2a1",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/ui-audio",
+        "original": "click2",
+        "license": "CC0-1.0",
+        "inputSha256": "01b5fa9413b4ece36edcb3b18ccf4d1d807d77b586e95a3191b754604791b2a1"
+      },
+      "analysis": {
+        "peak": 0.41678160429000854,
+        "rms": 0.07143169204571749
+      }
+    },
+    {
+      "id": "ui-confirm",
+      "file": "ui-confirm.wav",
+      "bus": "ui",
+      "gain": 0.9,
+      "loop": false,
+      "duration": 0.10303854875283447,
+      "bytes": 9132,
+      "sha256": "2af653ef8af8d2c0ebb784c99c83157eae14e8dc7c7f1d4be7f4d3dbb874b60b",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/ui-audio",
+        "original": "click1",
+        "license": "CC0-1.0",
+        "inputSha256": "2af653ef8af8d2c0ebb784c99c83157eae14e8dc7c7f1d4be7f4d3dbb874b60b"
+      },
+      "analysis": {
+        "peak": 0.4137616753578186,
+        "rms": 0.03538225301259593
+      }
+    },
+    {
+      "id": "ui-back",
+      "file": "ui-back.wav",
+      "bus": "ui",
+      "gain": 0.9,
+      "loop": false,
+      "duration": 0.1291609977324263,
+      "bytes": 11436,
+      "sha256": "d4e1cc8fc5629d72fd977821e2de55b5063fe56b7ae8ffde263eded6528b5d59",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/ui-audio",
+        "original": "rollover5",
+        "license": "CC0-1.0",
+        "inputSha256": "d4e1cc8fc5629d72fd977821e2de55b5063fe56b7ae8ffde263eded6528b5d59"
+      },
+      "analysis": {
+        "peak": 0.4199818968772888,
+        "rms": 0.039625666209438394
+      }
+    },
+    {
+      "id": "count",
+      "file": "count.ogg",
+      "bus": "sfx",
+      "gain": 0.65,
+      "loop": false,
+      "duration": 0.9970975056689343,
+      "bytes": 11083,
+      "sha256": "6f3deaca0e0a7849e3410b2e70786ecc0ddbd9d27881b7e8d26c2f478c223af4",
+      "source": {
+        "author": "kheetor",
+        "url": "https://opengameart.org/content/race-start-countdown",
+        "original": "countdown.ogg (single low cue)",
+        "license": "CC0-1.0",
+        "inputSha256": "778ded68854acf94dc248b38d14a5fdf3bfdee94b8933072fdbbad656115c277"
+      },
+      "analysis": {
+        "peak": 0.6065341830253601,
+        "rms": 0.16284326699686585
+      }
+    },
+    {
+      "id": "go",
+      "file": "go.ogg",
+      "bus": "sfx",
+      "gain": 0.7,
+      "loop": false,
+      "duration": 1.2768253968253969,
+      "bytes": 13098,
+      "sha256": "70941637844ed1c66eaf2de347d351a2451f5d456ded78ea81cd2a8123e75cc2",
+      "source": {
+        "author": "kheetor",
+        "url": "https://opengameart.org/content/race-start-countdown",
+        "original": "countdown.ogg (go cue)",
+        "license": "CC0-1.0",
+        "inputSha256": "697b42a219b4e53ce5162d7c8f59c48fe2f959901c2e3d02e9e01e37005ee82b"
+      },
+      "analysis": {
+        "peak": 0.6046256422996521,
+        "rms": 0.14613743180204142
+      }
+    },
+    {
+      "id": "water",
+      "file": "water-wading-a.ogg",
+      "bus": "sfx",
+      "gain": 0.78,
+      "loop": true,
+      "duration": 12,
+      "bytes": 146753,
+      "sha256": "f9eb9f2ac1de441f61e7495bb83d531515c5bfdd590a979e4c8ba3c5862a28c9",
+      "source": {
+        "author": "ryansitz",
+        "url": "https://freesound.org/people/ryansitz/sounds/342932/",
+        "original": "Wading in Shallow Water.wav (public HQ preview, 3–15 seconds)",
+        "license": "CC0-1.0",
+        "inputSha256": "45146fdb33646cb5ca73ada1058a9ed059d64a3339f633e78086b859ee6c7fa1",
+        "selection": "A",
+        "selectedOn": "2026-11-06",
+        "processing": "原站公开 HQ 试听录音截取 3 秒起的片段，仅调整音量并转为单声道；原始音高。"
+      },
+      "analysis": {
+        "peak": 0.7313005528593355,
+        "rms": 0.03
+      }
+    },
+    {
+      "id": "grass",
+      "file": "grass-riding-a.ogg",
+      "bus": "sfx",
+      "gain": 1.25,
+      "loop": true,
+      "duration": 12,
+      "bytes": 155121,
+      "sha256": "44e51d9e40074a4b90c03e286e47cdb08c84ee2365ad0d9a0b0452b29e75eca0",
+      "source": {
+        "author": "KevinDuffy1234",
+        "url": "https://freesound.org/people/KevinDuffy1234/sounds/340198/",
+        "original": "Bike_On_Grass_OS.mp3",
+        "license": "CC0-1.0",
+        "inputSha256": "5b353d05977120c260a18df3f07c19cab53c97170c028d76d07517e1e9c1df7c",
+        "selectedOn": "2026-11-06",
+        "selection": "grass A",
+        "processing": "公开录音从 2 秒起截取；仅调整音量、单声道转换和短边缘淡入淡出，不改音高。"
+      },
+      "analysis": {
+        "peak": 0.8,
+        "rms": 0.018791280181287888
+      }
+    },
+    {
+      "id": "road",
+      "file": "road-rolling.ogg",
+      "bus": "sfx",
+      "gain": 0.75,
+      "loop": true,
+      "duration": 12,
+      "bytes": 154927,
+      "sha256": "4cc49cdf71ca856b6ee121726ca055654c1971891d8d41ef0dad4e29bbcf36a5",
+      "source": {
+        "author": "Joseph SARDIN",
+        "url": "https://bigsoundbank.com/bike-on-a-road-mtb-s1282.html",
+        "original": "Bike on a road (MTB), sound 1282",
+        "license": "CC0-1.0",
+        "inputSha256": "a6ec58263d3111b2b2a65d3545da900718b3effb9e1493af39a022831c2f5da1",
+        "selectedOn": "2026-11-06",
+        "selection": "riding 4",
+        "processing": "公开录音从 6 秒起截取；仅调整音量、单声道转换和短边缘淡入淡出，不改音高。"
+      },
+      "analysis": {
+        "peak": 0.2692520402346535,
+        "rms": 0.03
+      }
+    },
+    {
+      "id": "boost-on",
+      "file": "boost-on.ogg",
+      "bus": "sfx",
+      "gain": 0.55,
+      "loop": false,
+      "duration": 0.4687528344671202,
+      "bytes": 6821,
+      "sha256": "ed6d13459afcf4dbe2e89a82306639215409600252cbc67bf76e383ca72786ef",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/digital-audio",
+        "original": "phaseJump1",
+        "license": "CC0-1.0",
+        "inputSha256": "6a969f54e49dd524bf765d5c2e06433a59417e55d46af860845426f74a227052"
+      },
+      "analysis": {
+        "peak": 0.8217254877090454,
+        "rms": 0.20046014777474494
+      }
+    },
+    {
+      "id": "boost-loop",
+      "file": "boost-loop.ogg",
+      "bus": "sfx",
+      "gain": 0.15,
+      "loop": true,
+      "duration": 0.9505215419501134,
+      "bytes": 11457,
+      "sha256": "9486b72efeca7591ca0cf3484b271b1f45c948c207ce54b8d5e45f1d89be4065",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/sci-fi-sounds",
+        "original": "forceField_001.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "5574e69dd04e5f59322c5ddffde5978f077b09170ae5e29cec0bd9901828cd90"
+      },
+      "analysis": {
+        "peak": 0.9106315970420837,
+        "rms": 0.2651146241965765
+      }
+    },
+    {
+      "id": "nitro-on",
+      "file": "nitro-on.ogg",
+      "bus": "sfx",
+      "gain": 0.24,
+      "loop": false,
+      "duration": 0.4471201814058957,
+      "bytes": 8349,
+      "sha256": "73ce44cfea3e40bb238f3455a33c7faf944aa518eb3e6ed4293bfc26476af5f4",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/sci-fi-sounds",
+        "original": "thrusterFire_000.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "64c02bd3a52a6c1e31bb64fc3a5c9d4f361d32dc94eb3872f844d0cdb49faf86"
+      },
+      "analysis": {
+        "peak": 0.3290947675704956,
+        "rms": 0.08711204946245799
+      }
+    },
+    {
+      "id": "nitro-loop",
+      "file": "nitro-loop.ogg",
+      "bus": "sfx",
+      "gain": 0.22,
+      "loop": true,
+      "duration": 4.972607709750567,
+      "bytes": 32803,
+      "sha256": "ccd416729a750c9d46debd023aa2219f4c79134ed74f8ea69eb0fff86756a59f",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/sci-fi-sounds",
+        "original": "spaceEngineSmall_000.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "2d2a51ee9355d66dd38ee566d13a728f830b231667460f6cb53871408af2f271"
+      },
+      "analysis": {
+        "peak": 0.7980952262878418,
+        "rms": 0.27458807167288224
+      }
+    },
+    {
+      "id": "confusion-loop",
+      "file": "confusion-loop.ogg",
+      "bus": "sfx",
+      "gain": 0.24,
+      "loop": true,
+      "duration": 4.9609977324263035,
+      "bytes": 49253,
+      "sha256": "a2842d3efdb33c405b0af5853a98eb28adeb4346c4248a9c5491e7dfc2a94fa2",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/sci-fi-sounds",
+        "original": "computerNoise_001.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "22321a7b5bdd16a4643f50c99926b032fe5bfa465e5dfdc5d133b9edf7058be4"
+      },
+      "analysis": {
+        "peak": 0.7990779876708984,
+        "rms": 0.3203009279301988
+      }
+    },
+    {
+      "id": "energy",
+      "file": "energy.ogg",
+      "bus": "sfx",
+      "gain": 0.55,
+      "loop": false,
+      "duration": 0.1799546485260771,
+      "bytes": 5689,
+      "sha256": "a5a1f78aaeb542311387b5f79a1e8a9e71a2fc49f844d46d4f43aa1719b388af",
+      "source": {
+        "author": "Delta12 Studio",
+        "url": "https://opengameart.org/content/rpg-sound-effect-pack",
+        "original": "item.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "2a460767ecd45ff67e8bcf2d65d8f42127ba27cd7386a7f0806e20b909241e6a"
+      },
+      "analysis": {
+        "peak": 0.5855213403701782,
+        "rms": 0.19631995259851429
+      }
+    },
+    {
+      "id": "drain",
+      "file": "drain.ogg",
+      "bus": "sfx",
+      "gain": 0.65,
+      "loop": false,
+      "duration": 0.3178231292517007,
+      "bytes": 6039,
+      "sha256": "e092f8f3fa6634a37894c933a6facdfcb19982e86aed8a736c50547949b4bd3f",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/digital-audio",
+        "original": "phaserDown2",
+        "license": "CC0-1.0",
+        "inputSha256": "c99db8b888c4da10810c33fdb2221d7e55fde4e31591ac33f3d414ea74ad9bd8"
+      },
+      "analysis": {
+        "peak": 0.7318578958511353,
+        "rms": 0.1442387380358629
+      }
+    },
+    {
+      "id": "ban",
+      "file": "ban.ogg",
+      "bus": "sfx",
+      "gain": 0.65,
+      "loop": false,
+      "duration": 0.2946031746031746,
+      "bytes": 5676,
+      "sha256": "c14abdf014c2b1b0d3f3be86abdbb69ff208b8f18f89672aa4122defbb32a77b",
+      "source": {
+        "author": "Delta12 Studio",
+        "url": "https://opengameart.org/content/rpg-sound-effect-pack",
+        "original": "cancel.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "ab0a0a9dfa6f386954f712a11f2b969faaae1a0c3d5d9348a6e7a34e58baa607"
+      },
+      "analysis": {
+        "peak": 0.6116849184036255,
+        "rms": 0.09476307532568021
+      }
+    },
+    {
+      "id": "steer",
+      "file": "steer.ogg",
+      "bus": "sfx",
+      "gain": 0.6,
+      "loop": false,
+      "duration": 0.5305668934240363,
+      "bytes": 8770,
+      "sha256": "1c6e7622a04e34890c29701370a3d3d1822d34febaff3aa1031089e10a0179f2",
+      "source": {
+        "author": "Kenney",
+        "url": "https://kenney.nl/assets/interface-sounds",
+        "original": "error_003.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "885b28175c7b511118bcffab95675b48bbac9005cf6514656ebdad979276b3ab"
+      },
+      "analysis": {
+        "peak": 0.7384867668151855,
+        "rms": 0.078192040311801
+      }
+    },
+    {
+      "id": "victory",
+      "file": "victory.ogg",
+      "bus": "sfx",
+      "gain": 0.8,
+      "loop": false,
+      "duration": 5.0140589569161,
+      "bytes": 79116,
+      "sha256": "842a6c029157d59b5c4e3eaa3a1981c9f50951c363292ee73916f5b26ee7c58c",
+      "source": {
+        "author": "MintoDog",
+        "url": "https://opengameart.org/content/racing-game-finish-jingle",
+        "original": "Race Finish Best (Jingle).ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "ee6efe6568cb04a46cdba2c264574be4abace3394dae8ac9b8546adcc9e4ed29"
+      },
+      "analysis": {
+        "peak": 0.6032724380493164,
+        "rms": 0.16283651535111304
+      }
+    },
+    {
+      "id": "music",
+      "file": "music.ogg",
+      "bus": "music",
+      "gain": 0.62,
+      "loop": true,
+      "duration": 116.36367346938775,
+      "bytes": 1292439,
+      "sha256": "5c82d8c7297c495a9693a4ccae2362084b309baa95f4b838e474998712f38012",
+      "source": {
+        "author": "MintoDog",
+        "url": "https://opengameart.org/content/sky-blue-street",
+        "original": "sky_blue_street_bpm165_0.ogg",
+        "license": "CC0-1.0",
+        "inputSha256": "75cb909a27d16618b0dae01088d3a543fb167ee71dac89663fe3e3029916a0a5"
+      },
+      "analysis": {
+        "peak": 0.719720184803009,
+        "rms": 0.14281298553268748
+      }
+    }
+  ]
+}

@@ -6,10 +6,10 @@
   <meta name="theme-color" content="#f5eecf" />
   <meta name="description" content="Unicycle Race — 单机独轮车竞速。" />
   <link rel="icon" type="image/svg+xml" href="./assets/ui/game-icon.svg" />
-  <title>单轮车竞速 · 八动物试玩副本</title>
+  <title>单轮车竞速</title>
   <style id="loading-screen-style">html,body{margin:0}#loading,#loading *{box-sizing:border-box}#loading{z-index:100;pointer-events:auto;color:#727c5b;font-synthesis:none;background:linear-gradient(105deg,#fbf3d7,#ece5bb);place-items:center;font-family:Microsoft YaHei,PingFang SC,system-ui,sans-serif;display:grid;position:fixed;inset:0;overflow:hidden}#loading[hidden]{display:none!important}#loading .loading-panel{text-align:center;width:min(680px,100vw - 48px)}#loading h1{color:#fff7da;-webkit-text-stroke:4px #585437;paint-order:stroke fill;width:auto;margin:0 0 clamp(28px,6vh,64px);font-size:clamp(28px,4vw,50px);font-weight:800;line-height:1.4;position:static}#loading .loading-content{width:100%;position:static;transform:none}#loading-caption{justify-content:center;align-items:center;height:3em;margin:0 0 14px;font-size:clamp(16px,2.2vw,18px);line-height:1.5;display:flex}#loading .loading-track{background:#9aa97c55;border:2px solid #e5d9af;border-radius:20px;height:23px;overflow:hidden}#loading-fill{background:linear-gradient(90deg,#e6bd62,#f58a43);border-radius:20px;width:0;height:100%;transition:width .18s;display:block}#loading-percent{font-variant-numeric:tabular-nums;height:24px;margin-top:12px;font-size:15px;line-height:24px;display:block}@media (prefers-reduced-motion:reduce){#loading-fill{transition:none}}</style>
-  <script type="module" crossorigin src="./assets/index-C5CJgPLy.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-C26A15mz.css">
+  <script type="module" crossorigin src="./assets/index-sUOlEQCo.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CYDngTNn.css">
 </head>
 <body>
   <section id="loading" aria-label="游戏载入">
@@ -37,14 +37,8 @@
         </div>
         <div class="start-actions" role="group" aria-label="游戏模式">
           <button id="start" class="primary">单人游戏</button>
-          <button id="online" disabled aria-label="联机游玩，暂未开放" title="暂未开放">联机游玩<small>暂未开放</small></button>
+          <button id="online" aria-disabled="true" aria-label="联机游玩，暂未开放" title="暂未开放">联机游玩<small>暂未开放</small></button>
         </div>
-        <button id="settings-toggle" class="icon-button" aria-label="设置" aria-expanded="false"><img src="./assets/ui/settings-gear.svg" alt="" /></button>
-        <aside id="settings" class="card" hidden>
-          <strong>设置</strong>
-          <label>声音 <input id="sound" type="checkbox" checked /></label>
-          <button id="fullscreen">无边框全屏</button>
-        </aside>
       </section>
       <section id="hud" class="screen" hidden>
         <div class="timer-box"><time id="timer">00:00</time><button id="pause">暂停 Ⅱ</button></div>
